@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>JS unidad 2 version 2</title>
+</head>
+<body>
+    <h1>Actividad obligatoria Javascript unidad 2</h1>
+    
+    <div class="nombre-alumno">
+        <label for="nombre">Ingrese nombre de alumno: <input type="text" id="nombre"></label>
+        <button type="submit" onclick="getName()" id="name-btn">Ingresar nombre</button>
+        
+    </div>
+    <div id="notas" style="display: none;" >
+        <label for="nota">Ingrese sus notas una por vez:<input type="number" id="nota"></label>
+        <button type="submit" onclick="ingresaNota()">Ingresar nota</button>
+    </div>
+    <div id="datos" hidden>
+        <div id="alumno"></div>
+    </div>
+
+    
+    <script src="main2.js"></script>
+</body>
+</html>
