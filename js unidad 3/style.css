@@ -1,0 +1,46 @@
+#visitante{
+    text-align: center;
+    background-color: #E8DAEF;
+    border-radius: 1em;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+#edades{
+    text-align: center;
+    background-color: #D5F5E3;
+    border-radius: 1em;
+    padding: 0.5rem;
+}
+
+label{
+    margin: 1rem;
+}
+
+input{
+    margin: 0.5rem;
+}
+
+#edades button{
+    margin: 0 1rem;
+    padding: 5px;
+    background-color: #58D68D;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#visitante button{
+    margin: 0 1rem;
+    padding: 5px;
+    background-color: #D2B4DE;
+    border: none;
+    border-radius: 0.5em;
+}
+
+#resultado{
+    background-color: #2ECC71;
+    border-radius: 1em;
+    padding: 0.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}

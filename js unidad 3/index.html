@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Javascript Codo a Codo</title>
+</head>
+<body>
+    <h1>Javascript Unidad 3</h1>
+    <!-- <div id="visitante"> 
+        <h3>Validación de mayoría de edad</h3>
+        <h4>Ingrese su edad a continuación:</h4>
+        <label for="usuarioMain">Edad: <input type="number" id="usuarioMain"></label>
+        <button type="button" onclick="validarUsuario()">Validar</button>
+        <h3 id="validacionVisitante"></h3>
+    </div> -->
+    
+    <div id="edades">
+        <form id="formEdades">
+            <h3>Ingrese las edades de los usuarios:</h3>
+            <label for="usuario1">Usuario 1:<input type="text" id="usuario1"></label>
+            <br>
+            <label for="usuario2">Usuario 2:<input type="text" id="usuario2"></label>
+            <br>
+            <label for="usuario3">Usuario 3:<input type="text" id="usuario3"></label>
+            <br>
+            <button type="button" onclick="evaluarEdades()">Enviar</button> <button type="reset">Reiniciar</button>
+        </form>
+    </div>
+
+    <div id="resultado" hidden></div>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
